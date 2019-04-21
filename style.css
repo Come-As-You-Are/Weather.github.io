@@ -1,0 +1,78 @@
+
+html{
+    
+   
+   overflow: scroll;
+    
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+
+body {
+   
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48,62,143));
+    font-family: monospace;
+    color:white;
+    
+}
+.location-timezone{
+    align-items: center;
+}
+
+.location, 
+.temperature{
+    height: 25vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.temperature{
+    flex-direction: column;
+    align-items: center;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+
+}
+.degree-section h2 {
+    font-size: 40px;
+}
+.humidity{
+    
+     display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+    height: 50px;
+    
+}
+.daily{
+    align-content: left;
+    height: 200px;
+}
+
+
+.cutefont{
+     color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 40px; line-height: 40px; font-weight: normal; margin-bottom: 0px; margin-top: 20px; text-align: center; text-shadow: 0 1px 1px #fff;
+    height: 100px;
+    
+}
