@@ -14,17 +14,17 @@ window.addEventListener('load', ()=>{
             lat = position.coords.latitude;
             //access the weather...
             //darksky.net
-            const proxy = 'https://cors-anywhere.herokuapp.com/';
-            const api = `${proxy}https://api.darksky.net/forecast/9a9b3a07cf6eb56ae505baf6653d269e/${lat},${long}`;
+           
+            const api = `https://api.darksky.net/forecast/9a9b3a07cf6eb56ae505baf6653d269e/${lat},${long}`;
             
         fetch(api)
-        
+
         .then(response =>{
             return response.json();
             
         })
         .then(data =>{
-            console.log(data);
+           
             
             const{temperature, summary, humidity} = data.currently;
            
